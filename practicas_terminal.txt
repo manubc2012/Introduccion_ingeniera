@@ -1,0 +1,162 @@
+Microsoft Windows [Versión 10.0.22621.4751]
+(c) Microsoft Corporation. Todos los derechos reservados.
+
+C:\Users\manuela.barrera_amar>cd
+C:\Users\manuela.barrera_amar
+
+C:\Users\manuela.barrera_amar>dir
+ El volumen de la unidad C es WINDOWS
+ El número de serie del volumen es: D095-E72D
+
+ Directorio de C:\Users\manuela.barrera_amar
+
+09/01/2025  03:10 p. m.    <DIR>          .
+07/01/2025  12:31 p. m.    <DIR>          ..
+09/01/2025  03:10 p. m.               126 .gitconfig
+07/01/2025  11:10 a. m.    <DIR>          Contacts
+08/01/2025  09:22 a. m.    <DIR>          Documents
+16/01/2025  02:32 p. m.    <DIR>          Downloads
+07/01/2025  11:10 a. m.    <DIR>          Favorites
+07/01/2025  11:10 a. m.    <DIR>          Links
+07/01/2025  11:10 a. m.    <DIR>          Music
+08/01/2025  09:22 a. m.    <DIR>          OneDrive
+17/01/2025  07:48 a. m.    <DIR>          OneDrive - Mantu Group
+07/01/2025  11:10 a. m.    <DIR>          Saved Games
+07/01/2025  11:45 a. m.    <DIR>          Searches
+07/01/2025  12:47 p. m.    <DIR>          Videos
+               1 archivos            126 bytes
+              13 dirs  426.826.227.712 bytes libres
+
+C:\Users\manuela.barrera_amar>cd Documents
+
+C:\Users\manuela.barrera_amar\Documents>mkdir introduuccion_ingenieria
+
+C:\Users\manuela.barrera_amar\Documents>dir
+ El volumen de la unidad C es WINDOWS
+ El número de serie del volumen es: D095-E72D
+
+ Directorio de C:\Users\manuela.barrera_amar\Documents
+
+17/01/2025  08:32 a. m.    <DIR>          .
+09/01/2025  03:10 p. m.    <DIR>          ..
+17/01/2025  08:32 a. m.    <DIR>          introduuccion_ingenieria
+               0 archivos              0 bytes
+               3 dirs  426.831.777.792 bytes libres
+
+C:\Users\manuela.barrera_amar\Documents>echo "Hola mundo"  > Saludo.txt
+
+C:\Users\manuela.barrera_amar\Documents>dir
+ El volumen de la unidad C es WINDOWS
+ El número de serie del volumen es: D095-E72D
+
+ Directorio de C:\Users\manuela.barrera_amar\Documents
+
+17/01/2025  08:33 a. m.    <DIR>          .
+09/01/2025  03:10 p. m.    <DIR>          ..
+17/01/2025  08:32 a. m.    <DIR>          introduuccion_ingenieria
+17/01/2025  08:33 a. m.                16 Saludo.txt
+               1 archivos             16 bytes
+               3 dirs  426.831.384.576 bytes libres
+
+C:\Users\manuela.barrera_amar\Documents>start Saludo.txt
+
+C:\Users\manuela.barrera_amar\Documents>copy Saludo.txt introduuccion_ingenieria
+        1 archivo(s) copiado(s).
+
+C:\Users\manuela.barrera_amar\Documents>dir introduuccion_ingenieria
+ El volumen de la unidad C es WINDOWS
+ El número de serie del volumen es: D095-E72D
+
+ Directorio de C:\Users\manuela.barrera_amar\Documents\introduuccion_ingenieria
+
+17/01/2025  08:36 a. m.    <DIR>          .
+17/01/2025  08:33 a. m.    <DIR>          ..
+17/01/2025  08:33 a. m.                16 Saludo.txt
+               1 archivos             16 bytes
+               2 dirs  426.829.160.448 bytes libres
+
+C:\Users\manuela.barrera_amar\Documents>dir
+ El volumen de la unidad C es WINDOWS
+ El número de serie del volumen es: D095-E72D
+
+ Directorio de C:\Users\manuela.barrera_amar\Documents
+
+17/01/2025  08:33 a. m.    <DIR>          .
+09/01/2025  03:10 p. m.    <DIR>          ..
+17/01/2025  08:36 a. m.    <DIR>          introduuccion_ingenieria
+17/01/2025  08:33 a. m.                16 Saludo.txt
+               1 archivos             16 bytes
+               3 dirs  426.829.180.928 bytes libres
+
+C:\Users\manuela.barrera_amar\Documents>move Saludo.txt introduuccion_ingenieria
+¿Sobrescribir C:\Users\manuela.barrera_amar\Documents\introduuccion_ingenieria\Saludo.txt? (Sí/No/Todo): Si
+Se han movido         1 archivos.
+
+C:\Users\manuela.barrera_amar\Documents>dir
+ El volumen de la unidad C es WINDOWS
+ El número de serie del volumen es: D095-E72D
+
+ Directorio de C:\Users\manuela.barrera_amar\Documents
+
+17/01/2025  08:38 a. m.    <DIR>          .
+09/01/2025  03:10 p. m.    <DIR>          ..
+17/01/2025  08:38 a. m.    <DIR>          introduuccion_ingenieria
+               0 archivos              0 bytes
+               3 dirs  426.828.357.632 bytes libres
+
+C:\Users\manuela.barrera_amar\Documents>dir introduuccion_ingenieria
+ El volumen de la unidad C es WINDOWS
+ El número de serie del volumen es: D095-E72D
+
+ Directorio de C:\Users\manuela.barrera_amar\Documents\introduuccion_ingenieria
+
+17/01/2025  08:38 a. m.    <DIR>          .
+17/01/2025  08:38 a. m.    <DIR>          ..
+17/01/2025  08:33 a. m.                16 Saludo.txt
+               1 archivos             16 bytes
+               2 dirs  426.828.288.000 bytes libres
+
+C:\Users\manuela.barrera_amar\Documents>dir
+ El volumen de la unidad C es WINDOWS
+ El número de serie del volumen es: D095-E72D
+
+ Directorio de C:\Users\manuela.barrera_amar\Documents
+
+17/01/2025  08:38 a. m.    <DIR>          .
+09/01/2025  03:10 p. m.    <DIR>          ..
+17/01/2025  08:38 a. m.    <DIR>          introduuccion_ingenieria
+               0 archivos              0 bytes
+               3 dirs  426.828.288.000 bytes libres
+
+C:\Users\manuela.barrera_amar\Documents>rmdir introduuccion_ingenieria
+El directorio no está vacío.
+
+C:\Users\manuela.barrera_amar\Documents>cd introduuccion_ingenieria
+
+C:\Users\manuela.barrera_amar\Documents\introduuccion_ingenieria>del Saludo.txt
+
+C:\Users\manuela.barrera_amar\Documents\introduuccion_ingenieria>dir
+ El volumen de la unidad C es WINDOWS
+ El número de serie del volumen es: D095-E72D
+
+ Directorio de C:\Users\manuela.barrera_amar\Documents\introduuccion_ingenieria
+
+17/01/2025  08:40 a. m.    <DIR>          .
+17/01/2025  08:38 a. m.    <DIR>          ..
+               0 archivos              0 bytes
+               2 dirs  426.825.834.496 bytes libres
+
+C:\Users\manuela.barrera_amar\Documents\introduuccion_ingenieria>cd..
+
+C:\Users\manuela.barrera_amar\Documents>rmdir introduuccion_ingenieria
+
+C:\Users\manuela.barrera_amar\Documents>dir
+ El volumen de la unidad C es WINDOWS
+ El número de serie del volumen es: D095-E72D
+
+ Directorio de C:\Users\manuela.barrera_amar\Documents
+
+17/01/2025  08:40 a. m.    <DIR>          .
+09/01/2025  03:10 p. m.    <DIR>          ..
+               0 archivos              0 bytes
+               2 dirs  426.825.834.496 bytes libres
